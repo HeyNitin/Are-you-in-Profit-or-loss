@@ -1,0 +1,40 @@
+:root {
+    --primary-dark: #000000;
+    --primary-green: #a8e4cc;
+    
+  }
+
+body {
+    text-align: center;
+    background-color: white;
+    
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+   
+}
+
+input{
+    color: var(white);
+    border-color: var(--primary-green);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-right: 100px;
+    
+}
+
+#submit-button{
+    display: block;
+     margin-top: 1rem;
+     margin: auto;
+     background: transparent;
+     color: var(--primary-dark);
+     background-color: var(--primary-green);
+     border-color: var(--primary-dark);
+     border-width: medium;
+     padding: 0.3rem 0.7rem;
+     border-radius: 0.3rem;
+}
+
